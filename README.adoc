@@ -1,0 +1,8 @@
+# docker-elasticsearch
+Elasticsearch containers with the following plugins:
+
+ - head
+ - analysis-phonetic
+ - shield
+
+The container is available on link:https://registry.hub.docker.com/u/qvdk/elasticsearch/[DockerHub]
