@@ -26,3 +26,5 @@ ENV PATH /usr/share/elasticsearch/bin/shield:$PATH
 RUN esusers useradd es_admin -r admin -p es_admin
 
 COPY docker-entrypoint.sh /
+
+RUN echo "shield.audit.enabled: true" >> /etc/elasticsearch/elasticsearch.yml
